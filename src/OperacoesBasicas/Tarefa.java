@@ -1,7 +1,7 @@
 package OperacoesBasicas;
 
 public class Tarefa {
-    //Atributo
+    //atributo
     private String descricao;
 
     public Tarefa(String descricao) {
@@ -10,5 +10,10 @@ public class Tarefa {
 
     public String getDescricao() {
         return descricao;
+    }
+
+    @Override
+    public String toString() {
+        return  descricao;
     }
 }
